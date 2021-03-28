@@ -1,0 +1,16 @@
+name: SpawnOnJoin
+version: ${project.version}
+main: spawnonjoin.spawnonjoin.SpawnOnJoin
+api-version: 1.16
+authors: [ Kamey ]
+description: SpawnOnJoin Plugin to Teleport Players on Join
+website: viflcraft.tk
+commands:
+  setjoinspawn:
+    description: Sets the spawn location
+    usage: /setjoinspawn
+    permission: spawnonjoin.admin
+  spawn:
+    description: Teleports a player to the spawn
+    usage: /spawn
+    permission: spawnonjoin.command
