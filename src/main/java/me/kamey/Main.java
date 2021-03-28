@@ -1,4 +1,4 @@
-package spawnonjoin.spawnonjoin;
+package me.kamey;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -15,11 +15,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.Objects;
 import java.util.logging.Logger;
 
-public final class SpawnOnJoin extends JavaPlugin implements Listener {
+public final class Main extends JavaPlugin implements Listener {
 
     public Logger log = Bukkit.getLogger();
 
-    String plugin_name = ChatColor.translateAlternateColorCodes('&',"&2[SpawnOnJoin] ");
+    String plugin_name = ChatColor.translateAlternateColorCodes('&',"&2[KSpawn] ");
 
     private Location location;
 
