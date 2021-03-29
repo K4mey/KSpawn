@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>SpawnOnJoin</groupId>
-    <artifactId>SpawnOnJoin</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>KSpawn</groupId>
+    <artifactId>KSpawn</artifactId>
+    <version>1.2</version>
     <packaging>jar</packaging>
 
-    <name>SpawnOnJoin</name>
+    <name>KSpawn</name>
 
     <description>SpawnOnJoin Plugin to Teleport Players on Join</description>
     <properties>
